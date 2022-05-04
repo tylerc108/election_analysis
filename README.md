@@ -27,6 +27,16 @@
     
 ## Election-Audit Summary
 
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+"In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections."
 
+While we developed this script to return the results specifically for this election, it can certainly be used with slight modifications in other elections. An examples of a modification needed to examine a different election would be the below screenshot:
 
+<img width="528" alt="Screen Shot 2022-05-04 at 3 36 24 PM" src="https://user-images.githubusercontent.com/103055666/166812481-14e7efbe-3f7c-447c-a6ef-209abc17a11d.png">
+
+We would have to adapt this piece of the code that appears early in the script because it tells this script to go into the files containing the raw data on this specific election. To have this script run on a different election results file, we'd have to change this piece of the code to go into a different file containing election results for a different election.
+
+Another thing we'd have to consider when using this script on another election is what kind of election we will be analysing. For example, if we were running this code on a nation-wide election, we'd probably be more interested in results per state than results per county. The below piece of the script would have to be changed:
+
+<img width="499" alt="Screen Shot 2022-05-04 at 3 41 35 PM" src="https://user-images.githubusercontent.com/103055666/166813272-a6edde85-bd02-453b-a765-0e6176ec3694.png">
+
+This is a snippet of code where we define a list and dictionary for the counties involved in the election. This owul dhave to be changed to something along the lines of "state_names = []" and "state_votes = {}." This would make it less confusing while coding the script to work for nationwide elections.

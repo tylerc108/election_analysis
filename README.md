@@ -27,8 +27,6 @@
     
 ## Election-Audit Summary
 
-"In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections."
-
 While we developed this script to return the results specifically for this election, it can certainly be used with slight modifications in other elections. An examples of a modification needed to examine a different election would be the below screenshot:
 
 <img width="528" alt="Screen Shot 2022-05-04 at 3 36 24 PM" src="https://user-images.githubusercontent.com/103055666/166812481-14e7efbe-3f7c-447c-a6ef-209abc17a11d.png">

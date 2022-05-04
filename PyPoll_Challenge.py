@@ -85,7 +85,8 @@ with open(file_to_save, "w") as txt_file:
         f"\nElection Results\n"
         f"-------------------------\n"
         f"Total Votes: {total_votes:,}\n"
-        f"-------------------------\n")
+        f"-------------------------\n"
+        f"County Votes:\n")
     print(election_results, end="")
 
     txt_file.write(election_results)
